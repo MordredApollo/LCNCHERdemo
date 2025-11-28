@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>LewdCorner Launcher — Main View</title>
+<style>
+body { font-family: Segoe UI, Roboto, sans-serif; margin: 0; display: flex; background: #0f1112; color: #eaf1ff; }
+.sidebar { width: 250px; background:#141617; padding:20px; }
+.main { flex:1; padding:20px; }
+.button { background:#1a73ff; color:white; border:none; padding:10px; border-radius:6px; cursor:pointer; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; }
+.card { background:#1c1f21; padding:12px; border-radius:8px; }
+</style>
+</head>
+<body>
+<div class="sidebar">
+  <h2>LewdCorner</h2>
+  <button class="button">Library</button><br/><br/>
+  <button class="button">Downloads</button><br/><br/>
+  <button class="button">Settings</button>
+</div>
+<div class="main">
+  <h1>Your Library</h1>
+  <input type="text" placeholder="Search..." style="width:60%;padding:6px;border-radius:4px;border:none;" />
+  <div class="grid" style="margin-top:20px;">
+    <div class="card">Sample Game 1 — v1.0</div>
+    <div class="card">Sample Game 2 — v1.0</div>
+    <div class="card">Sample Game 3 — v1.0</div>
+  </div>
+</div>
+</body>
+</html>

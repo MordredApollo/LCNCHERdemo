@@ -1,4 +1,4 @@
-# 🎮 LewdCorner Launcher v3.0 - Complete Rebuild Edition
+# 🎮 LewdCorner Launcher v0.01 - Demo Edition
 
 A professional, modern game library manager for LewdCorner with comprehensive features, clean architecture, and reliable performance.
 

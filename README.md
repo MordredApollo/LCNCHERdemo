@@ -292,3 +292,5 @@ For issues or questions:
 **Version**: 3.0.0 - Complete Rebuild Edition  
 **Last Updated**: 2024  
 **Status**: ✅ Production Ready
+
+Created by - MordredApollo
